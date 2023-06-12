@@ -1,0 +1,44 @@
+{
+  "/assets/": {
+    "target": "http://localhost:4200/src",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true
+  },
+  "/token": {
+    "target": "http://localhost:5001",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true
+  },
+  "/application/": {
+    "target": "http://localhost:5001",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true
+  },
+  "/Content/": {
+    "target": "http://localhost:5001",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true
+  },
+  "/reportviewer/": {
+    "target": "http://localhost:5001",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true
+  },
+  "/api/reports/": {
+    "target": "http://localhost:5001",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true
+  },
+  "/wwwroot/": {
+    "target": "http://localhost:5001",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true
+  }
+}
